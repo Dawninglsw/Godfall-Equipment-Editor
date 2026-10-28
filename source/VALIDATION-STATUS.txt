@@ -1,0 +1,25 @@
+0.1.0 — validation boundary
+
+Verified locally:
+- Main Python regression suite: 225 checks passed after localization/path adapters.
+- Final focused UI, filter, batch and language suite: 59 checks passed after the
+  last bilingual search changes, including 6 language/identifier invariance tests.
+  These overlap with the full suite and must not be added as independent coverage.
+- English character, batch and armory picker previews inspected visually.
+- A clean extraction relocated to a folder containing spaces and Chinese characters
+  ran entirely with bundled Python 3.12.14 and Node.js v24.19.0, without external
+  runtime paths or site-packages.
+- Original resources prepared read-only from the verified local game installation.
+- Empty armory/profile launch, 38 application module imports, language changes
+  preserving the draft, and candidate calculation using a synthetic different ID.
+- Base reader built, extracted/verified, and installed ONLY to a disposable fake
+  game folder. Current real installed game patch was unchanged by these tests.
+- Distribution uses a file allowlist and a blank profile. Original game assets,
+  player inventory, saved plans, personal patches and calibration are excluded.
+
+Still unverified:
+- A second physical PC, another player's real save, and other game builds/storefronts.
+- Every equipment/upgrade/trait combination; unsupported combinations remain guarded.
+
+This is a local release candidate, not an already published or universally
+compatible release. No online upload was performed.

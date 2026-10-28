@@ -1,0 +1,32 @@
+众神陨落-装备编辑器 · 运行与补丁组件清单
+
+分享时只需提供完整 ZIP，玩家无需另外下载修改器运行环境或补丁生成文件。
+
+包内已有：
+1. Python 3.12.14、Node.js 24.19.0，以及 Python 所需附带 DLL。
+2. Tcl/Tk 界面库、界面脚本、中英文支持和应用图标。
+3. 兵器库读取组件、基础补丁生成器、安装和停用工具。
+4. 单件及批量装备生成组件、词条计算与范围规则、强化属性重建规则。
+5. 解咒组件、原始掉落调整组件、地面掉落编辑组件。
+6. 版本检查、实时清单读取、设置备份及完整性核对工具。
+
+首次使用：
+完整解压后运行 Launch.cmd，选择自己的正版游戏目录并完成资源准备。
+在游戏关闭时，点击右上角“设置”，再点“安装基础读取组件”。
+随后启动游戏、打开兵器库并刷新角色配装。
+
+补丁文件由包内生成器根据本机已验证的游戏资源生成并安装，无需另找补丁下载。
+换目录后，若游戏中已安装完全相同的基础读取补丁，软件会核对其完整文件并补建新目录的安装记录。
+不一致的补丁或其他装备修改方案不会被自动接管。
+
+玩家仍需自行拥有兼容的 Windows 系统和正版 Godfall。Windows 自带的系统库及 PowerShell 由系统提供。
+分享包不含游戏本体、玩家账号或个人存档；使用过的工具目录会产生个人清单和方案，不应直接转发。
+本机已验证运行环境与空白目录流程；其他电脑和其他玩家真实存档的兼容性仍需试用反馈。
+
+Runtime and patch components
+
+The complete ZIP includes Python, Node.js, Tcl/Tk, bundled native dependencies, the inventory reader, patch builders/installers, item-copy and batch-generation logic, trait rules, cleansing and loot tools, icons, translations and backup support.
+No separate editor runtime or patch download is required. Patch files are built locally from the player's verified game resources.
+First use: extract everything, run Launch.cmd, choose your legitimate Godfall installation, and prepare resources. With the game closed, open Settings and install the base reader. Start the game, open the armory, then refresh.
+An existing byte-identical base reader can be verified and attached to a fresh tool directory without changing game files. Other patches are not adopted automatically.
+Windows system libraries and Windows PowerShell are provided by Windows. The game and a compatible game build remain required. Compatibility with other PCs and real player saves still requires testing.

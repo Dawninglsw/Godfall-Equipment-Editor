@@ -1,0 +1,27 @@
+﻿随机主词条装备清单 / Equipment with random primary traits
+
+来源：当前已核对版本的本地原始装备表，检查全部454个装备模板，共15种。
+在同一等级、品质和实际元素标签下，某个主词条位置有至少两种原生类型，才计为随机。
+不把固定主词条的数值浮动、元素变化、等级变化或精通词条计为随机主词条。
+这是静态装备模板清单，不代表所有物品都能在任意玩法或等级自然掉落。
+有随机主词条与编辑器当前可编辑是两项独立判断。
+Source: the validated local game tables. 454 equipment templates checked; 15 matched.
+Random means multiple native types within the same level, rarity and selected-tag context.
+Static definitions do not guarantee drops in every mode. Edit support is checked separately.
+
+名称 / Name | 类型 / Family | 主词条数 / Primary slots
+科罗拉巴的遗物 / Cololaba's Legacy | 护符 / Amulet | 2
+科斯梅拉之力 / Kosmera's Strength | 强化物 / Augment | 2
+科斯梅拉遗产 / Kosmera's Legacy | 强化物 / Augment | 2
+科斯梅拉之眼 / Kosmera's Vision | 强化物 / Augment | 2
+梅斯拉之星 / Methra's Star | 符咒 / Charm | 2
+双龙 / Twin Dragons | 武器 / Weapon | 2
+精萃之刃 / Quintessence Blades | 武器 / Weapon | 3
+黑曜石之锤 / Maul of the Obsidian Pack | 武器 / Weapon | 2
+银鬃的巨锤 / Silvermane's Greathammer | 武器 / Weapon | 3
+命运之矛 / Spear of Fate | 武器 / Weapon | 3
+日耀命运 / Sunflare Destiny | 武器 / Weapon | 2
+征服之刃 / Blade of Conquest | 武器 / Weapon | 3
+统治之剑 / Sword of Dominance | 武器 / Weapon | 2
+未知之眼 / Eye of the Unknown | 武器 / Weapon | 2
+恐惧怨灵之剑 / Dread Wraithblade | 武器 / Weapon | 3

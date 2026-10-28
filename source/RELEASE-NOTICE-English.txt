@@ -1,0 +1,75 @@
+# Godfall Equipment Editor — Beta Release Notice
+
+Godfall Equipment Editor · 0.1.0
+Author: 高斯定理 / Gauss Theorem
+
+This is a free, unofficial player-made tool for personal equipment research, trait editing and loadout planning in single-player Godfall. It is currently a small-scale beta. Feedback and suggestions are welcome.
+
+## Main features
+
+- Browse armory equipment, augments and saved armor loadouts.
+- Filter and sort by name, type, rarity, traits and other conditions.
+- Choose supported trait types and values within normal game ranges.
+- Create modified copies while retaining originals, including batch plans.
+- Chinese and English interfaces with bundled runtimes; no separate Python or Node.js installation required.
+
+Support varies by item, upgrade rank and special variant. Follow the candidates, restrictions and messages shown in the tool. Some features remain experimental.
+
+## Support legitimate copies of the game
+
+Please obtain and use the game through legitimate channels and support its developers and publisher.
+
+This tool does not provide the game, cracks, shared accounts, ownership-verification bypasses or paid-content unlocks. You must have your own compatible game installation and follow the applicable game and platform rules.
+
+## Copyright and third-party components
+
+Godfall and its names, trademarks, artwork, text and other game content belong to their respective rights holders. The game name is used only to identify the tool's intended application.
+
+This is an independent player project. It is not affiliated with, authorized by, partnered with or endorsed by the game's developers, publisher or platforms.
+
+The distribution does not include the game, original game asset bundles or the author's personal save. Required game data is prepared locally from the user's installation. The bundled application icon uses an image supplied by the project author; rights in depicted game artwork remain with their respective holders.
+
+Bundled Python, Node.js, Tcl/Tk and other third-party components remain subject to their respective licenses. See THIRD-PARTY-NOTICES.txt and the included license files. This notice does not change their existing license terms.
+
+## Free, non-commercial use
+
+This tool is provided free of charge for personal, non-commercial use.
+
+Without separate written permission from the author, do not sell the project's own material, charge for downloads or editing services using it, include it in paid bundles, or use it for other commercial purposes. These restrictions do not alter the licenses or rights granted for third-party components.
+
+You may share the original beta package and this notice free of charge. Retain the author credit, version information and third-party license files, and preferably link to the original release. Do not impersonate the author or an official release, or present a modified version as the author's original package.
+
+## Copyright concerns and rights disputes
+
+If you believe this project contains material that infringes your rights, contact the author through the release page's comments or private messages. Where possible, provide:
+
+- The specific file, content or download link involved;
+- The rights you assert and relevant ownership information;
+- A way to contact you for verification and follow-up.
+
+The author will review the report as soon as reasonably possible and, as appropriate, remove or replace material, add clarification, suspend distribution of the affected content, or otherwise cooperate in resolving the concern.
+
+## Testing scope and use
+
+This version has been tested on the author's PC with a fresh tool directory for first launch, armory reading and plan compilation, without importing the old tool's historical inventory or edit plans.
+
+This does not establish compatibility with every PC, game version or player save. Unsupported game versions may not work, and other storefront versions have not all been verified.
+
+Before use:
+
+1. Make a separate game-save backup. Tool patch/settings backups do not replace save backups.
+2. Extract the whole package and select your own game folder as described in the included instructions.
+3. Start by testing one ordinary, non-essential item before wider use.
+4. Close the game normally before installing or disabling a patch.
+5. "Generated" does not mean picked up and saved. Pick up normally and verify in the armory.
+6. Disabling the patch does not automatically delete copies already saved by the game or reverse saved curse completions.
+
+Use the tool in your personal single-player environment and avoid affecting other players' experience. This beta may have compatibility problems or unexpected results. The author will work on reported issues but does not guarantee operation in every environment.
+
+## Feedback
+
+Include the tool version, game platform, reproduction steps, expected and actual results, and complete error messages where possible.
+
+Before posting screenshots or logs, check for and conceal account information and local paths you do not want public. Do not upload a complete personal save or your entire used tool folder.
+
+Thank you for testing, and please continue to support legitimate copies of Godfall.

@@ -1,0 +1,20 @@
+Bundled runtimes
+
+Python 3.12.14 (Windows x64)
+License and incorporated component notices: runtime/python/LICENSE.txt
+Standard library, DLLs and Tcl/Tk retain their included copyright/license notices.
+Tcl/Tk license.terms files are included under runtime/python/tcl/.
+Official project: https://www.python.org/
+
+Node.js v24.19.0 (Windows x64)
+Full Node.js and incorporated third-party notices: runtime/node/LICENSE.txt
+License source: https://raw.githubusercontent.com/nodejs/node/v24.19.0/LICENSE
+Official project: https://nodejs.org/
+
+Godfall belongs to its respective rights holders. The clean distribution contains
+no original game asset bundle or extracted game tables/localization. Required
+resources are prepared locally from the user's installation.
+
+Release statements and terms for the project's own material are provided in
+RELEASE-NOTICE-English.txt and 发布声明-中文.txt. Third-party runtimes remain
+subject to their own included licenses; the project notice does not replace them.

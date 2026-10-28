@@ -1,0 +1,32 @@
+众神陨落-装备编辑器 · 完整免安装分享包
+Godfall Equipment Editor · Complete Portable Package
+
+本包已经包含修改器、启动修复、Python、Node.js、Tcl/Tk、所需附带库，以及中英文使用说明和发布声明。
+不需要另装启动修复包，也不需要自行安装 Python、Node.js 或界面框架。
+
+使用方法：
+1. 将整个压缩包完整解压到可写目录，不要直接在压缩包内运行。
+2. 双击最外层 Launch.cmd。不要单独移动或只复制 Launch 文件。
+3. 首次运行选择包含 Aperion 文件夹的 Godfall 游戏根目录，运行环境保持默认。
+4. 点击“验证并准备”。所需游戏资源会从你自己的游戏安装中在本机准备，无需另行下载。
+5. 保持游戏关闭，在“设置”中点击“安装基础读取组件”。
+6. 启动游戏并打开兵器库，在工具中点击“刷新角色配装”。
+
+仅需分享这一份完整压缩包。请勿分享使用过的整个工具目录，其中会包含个人清单和方案。
+本包为测试版，其他电脑和真实玩家存档仍需实测；只接受目前已验证的游戏版本。
+修改前请单独备份游戏存档。详细限制、版权和非商业使用条款见“发布声明-中文.txt”。
+启动失败时请查看 local_mod\launcher_error.log 或 local_mod\startup_error.log。
+
+Everything is included: the editor, launcher fix, Python, Node.js, Tcl/Tk, bundled dependencies, bilingual instructions and release notices.
+No separate hotfix or runtime/framework installation is required.
+
+1. Extract the ENTIRE ZIP to a writable folder. Do not run it inside the archive.
+2. Double-click the top-level Launch.cmd. Keep all included folders together.
+3. Choose the Godfall folder containing Aperion; keep the bundled runtime selected.
+4. Verify & Prepare reads required resources locally from your own game. No additional resource download is needed.
+5. With the game closed, open Settings and click Install Base Reader.
+6. Start the game, open the armory, then click Refresh Loadouts.
+
+Share this clean ZIP only, not a used tool folder. Beta compatibility with other PCs and real player saves still needs testing.
+Only the currently verified game build is accepted. Back up your game save separately before editing.
+Read README-English.txt and RELEASE-NOTICE-English.txt for requirements, supported limits and non-commercial use terms.
