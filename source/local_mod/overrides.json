@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "enabled": false,
+  "items": [],
+  "traitReplacements": [],
+  "primalDrop": {
+    "enabled": false,
+    "multiplier": 2,
+    "scope": "tower_chest_primal_bonus"
+  }
+}

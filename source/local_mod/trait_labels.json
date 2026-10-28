@@ -1,0 +1,7 @@
+{
+  "Trigger.NoModularTrigger.Payoff.NorthernTechDamage.Rank.4": "北斗技艺伤害",
+  "Trigger.NoModularTrigger.Payoff.ForbiddenTechDamage.Rank.4": "南斗技艺伤害",
+  "Trigger.NoModularTrigger.Payoff.PolarityInflictsAilments-InflictAilmentGainGreaterBlessingOfLuck.Rank.5": "施加减益获得强效幸运祝福；极性攻击施加减益",
+  "Trigger.NoModularTrigger.Payoff.NorthernHitBlessingAcuitySouthernHitBlessingInfusion.Rank.6": "北斗命中获得幸运祝福；南斗命中获得注能祝福",
+  "Trigger.NoModularTrigger.Payoff.WeaponTechInflictsAilments-DefeatAilmentAfflictedEnemyGainArchonCharge.Rank.5": "击败减益敌人获得执政官充能；武器技艺施加减益"
+}
