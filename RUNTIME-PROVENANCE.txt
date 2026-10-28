@@ -1,0 +1,38 @@
+THIRD-PARTY RUNTIME INVENTORY
+
+Python reports 3.12.14, Windows x64. Node.js reports v24.19.0, Windows x64.
+The full package has 5 EXE, 13 DLL, 31 PYD, 4 CMD and 3 PS1 files.
+There are no nested ZIP/7z/RAR files and no password-protected entries.
+
+Node: runtime/node/node.exe
+Locally observed signer: OpenJS Foundation; Authenticode status: Valid.
+SHA-256: 3602f2bb1a10f2cbab4c36886218a33c1ab3db87290e73b033c46c77147d0237
+Upstream project: https://nodejs.org/
+Corresponding source reference: https://github.com/nodejs/node/tree/v24.19.0
+License: runtime/node/LICENSE.txt in the distribution.
+
+Python: runtime/python/python.exe, pythonw.exe, associated DLL/PYD files,
+standard library, Tcl/Tk, and venv launcher stubs.
+Locally observed signer for the Python executables: OpenAI OpCo, LLC;
+Authenticode status: Valid. The binaries were copied from the local development
+environment's bundled Python runtime, not compiled by this mod's author.
+The four Python EXEs are the normal GUI/console launchers and two standard-library
+venv launcher stubs. The venv stubs are not used by Launch.cmd.
+Do NOT describe these as Python Software Foundation-signed Windows installers.
+CPython upstream source: https://www.python.org/downloads/release/python-31214/
+https://github.com/python/cpython/tree/v3.12.14
+Python's official 3.12.14 release is source-only; the upstream link establishes
+corresponding project source, not this provider's precise build provenance.
+The exact provider build recipe and any provider-specific changes have not been
+independently recovered. Exact vendor-signed binaries cannot be reproduced from
+the mod scripts. A reviewer may run the scripts with independently obtained
+compatible Python/Tk and Node, or request further runtime provenance.
+
+All 49 PE binaries are recorded individually with SHA-256, file version,
+local signature status and observed signer in RUNTIME-BINARY-HASHES.json/.tsv.
+Signature summary: {"Valid": 49}
+These are local checks, not a Nexus or VirusTotal approval.
+
+Python/Tcl/Tk/CRT incorporated licenses are retained in the original runtime tree.
+BUNDLED-RUNTIME-LICENSES.txt reproduces the shipped Python and Node license texts.
+The source/THIRD-PARTY-NOTICES.txt file documents license locations.

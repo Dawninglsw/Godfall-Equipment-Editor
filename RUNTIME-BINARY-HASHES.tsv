@@ -1,0 +1,50 @@
+path	bytes	sha256	signature_status	signer
+runtime/node/node.exe	92825416	3602f2bb1a10f2cbab4c36886218a33c1ab3db87290e73b033c46c77147d0237	Valid	CN=OpenJS Foundation, O=OpenJS Foundation, L=San Francisco, S=California, C=US
+runtime/python/DLLs/_asyncio.pyd	75056	6d86fefd411bac347ac52d2bb06379b06d47cd8ac3e81d425b8559d53343e197	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_bz2.pyd	88880	538d21186927914039c42fe2473aaf052abadbde9fc373883c5d848aecc8a62c	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_ctypes.pyd	131888	94f5e1801f982c86c1e3121d359f198b303a555668d60a42618e6e94d7d3e580	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_ctypes_test.pyd	40752	114ea0011af223aa4fafe504387c12796512e08fc6bc12a75713aca047174b4e	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_decimal.pyd	263984	8e2abfa85936c606d5f08accf5072823eb452308db4dae2f8bf41eab16c7fbfb	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_elementtree.pyd	137520	0fcc9c1e05d47bf2c5b492e42220ba668f9097c249042cb4260e25b808801367	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_hashlib.pyd	70448	00f94f34de2637c87dba0209ef22d728e90fa519ae46bde39df60df725dff496	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_lzma.pyd	168240	85a41379ef09827ae55f28fd567be791fa50fce35a69dbb5a71288b2d817d424	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_msi.pyd	48944	4d3c66d89a6780d2155bc23488e659153207cc24507bff8271022f7089a5ded9	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_multiprocessing.pyd	39728	180212b6055a51950e2169e7468713f7a12cb6d406550265ab0db2e93f377fef	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_overlapped.pyd	59696	8be3fbd1e1de1e5af58db5b15bf657085b8d01aee3e071fdb39cdf30aa756742	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_queue.pyd	36144	0ab4148d0f53e4257d9a4f2d18da151167e90694ae3cdb4809b5a53979cabed6	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_socket.pyd	87344	0313f76c51107429703e1de6512f66f748a61a65d7f01c063d13c44ebf8660d0	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_sqlite3.pyd	127792	bcdc1a6da767c541d11737be8317e308bc5d37a09219d5e00e12e7cf2b504765	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_ssl.pyd	180528	a524c08819e4e4e6b186e8686a6a091f17616a599b3f825bde60e05919f097fb	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_testbuffer.pyd	59184	2996bfff982d9c78b638622979b10411032c3aed4df3766e37f0dafa2b113ef7	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_testcapi.pyd	313648	9498e53d179053ee7890f5c78f6c1d313b8e9266af5937a11455cf9abdb5dd36	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_testclinic.pyd	70960	ebbff32787706fa79075bae23a572a158b50f197bb03ed4ab8258e08b2df5bdd	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_testconsole.pyd	31024	f56bd20c5c48002fb8995f7bba0cfd52f2336ea26d58e3d69978883574e15450	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_testimportmultiple.pyd	28976	d669c06a6e3b241d130dd4247887a0a55fca3153e2f4d3e9028e76098ee954bb	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_testinternalcapi.pyd	55600	32c1789d03f4d2065066913ac55e0bfb67839bd62e6c817ef5f6c67dd724cd13	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_testmultiphase.pyd	43312	c3a3bae4f901715d80a85c8aa58c7de086125d4457dfe06184321429a87bc3e6	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_testsinglephase.pyd	34096	7dfd3ffe8187ae124a7b6b262b1bc5d45f75539d8d08882adfe4cfba08bc258d	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_tkinter.pyd	70960	5b5ca94841d231e965cd7ce0ee25747fad4297d852bfc4ccfa508ada0f5981f1	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_uuid.pyd	29488	f1b6cf9efa0169ce68854766965ec4ccf27a465df27ebc788a873e533364f342	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_wmi.pyd	41264	fac8e2ce1e839ee0f94fb8a77f6a7b518f1d00d84fd930c6b0d3156c219501f8	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/_zoneinfo.pyd	52016	27bef453957e5a015d14e886b9e49fea74e0a8be52d2e04750e4d84a581eeed2	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/libcrypto-3-x64.dll	8003376	587c56108d7af19b02ff8fa785c9df703af66a0e8e2bd66031870ff4000bb6a9	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/libffi-8.dll	43824	f5fbc815520d987431124b1d2a79f687d8166a1b6cec205e03f9a9d51ea3d380	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/libssl-3-x64.dll	1599280	f77484cd42cfcee649abd12867d0a26b1bf5c171c1ac80a0aa7c1083c2e58e10	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/pyexpat.pyd	226096	9d31f81b7ae59851794c496b920dde678b12b812748aa7570ebe4a50c9d10ea0	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/select.pyd	34608	0fe0f9261b247f8405250c8ad5e2a0b42e88205fc8b095224b796fa69bc14d95	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/sqlite3.dll	1623344	ee6af52d64d99036df3b94f1c233dfef3d29732bb783d74470daf42a074366af	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/tcl86t.dll	1866480	fbfd065f861ec0a90dd513bc209c56bbc23c54d2839964a0ec2df95848af7860	Valid	CN=Python Software Foundation, O=Python Software Foundation, L=Wolfeboro, S=New Hampshire, C=US
+runtime/python/DLLs/tk86t.dll	1541872	cd2f60075064dfc2e65c88b239a970cb4bd07cb3eec7cc26fb1bf978d4356b08	Valid	CN=Python Software Foundation, O=Python Software Foundation, L=Wolfeboro, S=New Hampshire, C=US
+runtime/python/DLLs/unicodedata.pyd	1143600	06c8c710869f7ab725f1e47dd2b7d6578fa865eab97aa1210a423380f2cc4c74	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/DLLs/winsound.pyd	34096	50b20a35d02901c2519d45a12cf67e322e7506ba2bd2e95345e91304fff0e51c	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/Lib/venv/scripts/nt/python.exe	277808	8e11f5c0c4cdea438059feea1b750721929433374b389674c8368ae8bfcbf525	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/Lib/venv/scripts/nt/pythonw.exe	265520	e5b46f120e8ea5d6cb494b576211a8ce342fcaad2189d619ada4a1bd513cbfa0	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/python.exe	107312	5640e9be2fd33d05a1a9ae1228e2354609a69ab831605995ec4e2bd6da8fff5e	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/python3.dll	71984	62845ba25fcd76557c127b01b9dc6680845f8a4acb97fadf72035d7a6eb2d2d3	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/python312.dll	6985520	886fa6b89e09ca6c87599c802402fdca160e06b2fa9c658f6fe91ed926f63e1f	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/pythonw.exe	105776	79fa55bab8aaa960b4a3c3f41684dc9f070a649a5825750964e3246ab4921d58	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/tcl/dde1.4/tcldde14.dll	40752	8e0de5e84e4e018392c40b6b65d6b061955fc383dacf3d7bb753889e1eb76190	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/tcl/reg1.3/tclreg13.dll	37680	395ce0fb72734e78a0ba9ff9842b0cf0fbb35541d500a97afb6c10b6e83cf800	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/tcl/tix8.4.3/tix84.dll	386344	94647e88e587b01e9ed8131e1c45eac1902b974043095a68d40ef7c95ebb2e0e	Valid	CN="OpenAI OpCo, LLC", O="OpenAI OpCo, LLC", L=San Francisco, S=California, C=US
+runtime/python/vcruntime140.dll	124544	d5e4d9a3e835fa679450145d6a7d94e36573a509317111904d9b3712c30d9066	Valid	CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+runtime/python/vcruntime140_1.dll	49792	1f2d41c4aa5db0bc33ebf7b66d72943a817d7ce6cbe880502a9403823633093f	Valid	CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US

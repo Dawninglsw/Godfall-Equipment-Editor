@@ -1,0 +1,473 @@
+{
+  "files": {
+    "BUILD-AND-REPRODUCE.txt": {
+      "bytes": 3442,
+      "sha256": "59d2e0ec15f21cef50e934f422f6127ff1ebd59667546c7c07df05b4638c0bd6"
+    },
+    "BUNDLED-RUNTIME-LICENSES.txt": {
+      "bytes": 182699,
+      "sha256": "e66ac95a5c2c73636d08ca1f904baadcef1de26ddf320bb3e521e225fa04dd01"
+    },
+    "README-REVIEW.txt": {
+      "bytes": 1572,
+      "sha256": "bcef53161b883e3d523bc0767c0c7c611ce4d9cf755ba20e4448d4186f0b6e49"
+    },
+    "REFERENCE-DISTRIBUTION-MANIFEST.json": {
+      "bytes": 333861,
+      "sha256": "05b9a192796de14be82d3d74a916e5e68c8879ce3ba65d1622e0078dbf2809a7"
+    },
+    "repack_reviewed_release.py": {
+      "bytes": 2363,
+      "sha256": "90cc3e59e9ad8ca7f9c16dd52b32cb8f60fe1dac7fdc01ba4b018a6955350adc"
+    },
+    "REPRODUCTION-RESULT.json": {
+      "bytes": 546,
+      "sha256": "6a05dd47539a1b7dbf874da40c25dc8f8e39a27cb3343fbad53a2263a48e1cd8"
+    },
+    "REVIEW-MANIFEST.json": {
+      "bytes": 17225,
+      "sha256": "e0f61548210a7551b1e199d7921622fc8d5a2de4b829c5c999ba3b61aeea690e"
+    },
+    "RUNTIME-BINARY-HASHES.json": {
+      "bytes": 20449,
+      "sha256": "5af6653490d93d3f78968d7646fa86b74f8696705d7c6bf3986394a5fa881310"
+    },
+    "RUNTIME-BINARY-HASHES.tsv": {
+      "bytes": 9557,
+      "sha256": "c5210af3567e589a21e833dafe1ba6394e4dad8ac3e31c0672b0bc0f15eec12f"
+    },
+    "RUNTIME-PROVENANCE.txt": {
+      "bytes": 2276,
+      "sha256": "ba6087f1ab8ffc793c6cbabef99cc4e716ea0ce86df00e9c0ece0062774f3b10"
+    },
+    "SECURITY-REVIEW.txt": {
+      "bytes": 4568,
+      "sha256": "8e272b0369ed138748f8bffa8bd0f00c7526f1455b6a5af41715b950bf3a028b"
+    },
+    "source/analysis/build_chinese_item_names.cjs": {
+      "bytes": 5284,
+      "sha256": "2668528471bb0ad557f883702aa52717de2a71ce3bd114ef28a88a1177f5a7ce"
+    },
+    "source/analysis/game_trait_sdk.cjs": {
+      "bytes": 9976,
+      "sha256": "b9da656d0b98f2fa3d899269f90a3f108bd7cab773349fa97fb03cf852b5ed9c"
+    },
+    "source/analysis/ground_additional_rules.cjs": {
+      "bytes": 1200,
+      "sha256": "c2796e08115c5ead09529b67fa562db3065c12dc1c67071ea669838a20d9e55c"
+    },
+    "source/analysis/ground_augment_rules.cjs": {
+      "bytes": 1250,
+      "sha256": "d90d8884f84ed6455c8e4a80f07d44b0b6bd6f4b9d4abed29f5bb83625d5f399"
+    },
+    "source/analysis/ground_primary_rules.cjs": {
+      "bytes": 1973,
+      "sha256": "980d22d58955acb9ac065d0457489fc02fb4a1e534c698e782feb31c3131fb0d"
+    },
+    "source/analysis/ground_trait_trial.py": {
+      "bytes": 14497,
+      "sha256": "af366c56b5cea5b6280505188fcd181b257cee7577013765a9754d86a28b711b"
+    },
+    "source/analysis/inspect_resources.py": {
+      "bytes": 7599,
+      "sha256": "da3b2fe4d11fc9afb61198e7e3745575c7ea7b69fb0740b924fbf2ad033ab082"
+    },
+    "source/analysis/inspect_ue_runtime.py": {
+      "bytes": 8870,
+      "sha256": "decc7badfbc02c186dddc966ef8e68fb55244615e0d12abfee0f2873c45e1a91"
+    },
+    "source/analysis/item_metadata_sdk.cjs": {
+      "bytes": 4437,
+      "sha256": "fa572bba5f2a02af73a22c2125f9ae8a70e1c06034557656497662fddf2bfcf6"
+    },
+    "source/analysis/offline_equipment_factory.cjs": {
+      "bytes": 3175,
+      "sha256": "4923ea23f5110b0a045a8a66aa05b15a15718beef074177e361f52e649fcfd35"
+    },
+    "source/analysis/owned_augment_rules.cjs": {
+      "bytes": 1489,
+      "sha256": "6605a828289c2a8608ccecbc9a91eb311e726a0b4bcb47c12237a80593a04f3f"
+    },
+    "source/analysis/prepare_ground_trait_trial.cjs": {
+      "bytes": 9839,
+      "sha256": "68ad88b155c6bb5989c55470382adeac7d5a1ffcc6c3e6d3a42e4ed27e0669d1"
+    },
+    "source/analysis/random_primary_copy_rules.cjs": {
+      "bytes": 2443,
+      "sha256": "003ec3b9e759903fd074d2ef56c8904a827ea43b26b0ce91217e7e087080a33b"
+    },
+    "source/analysis/read_ground_loot.py": {
+      "bytes": 10236,
+      "sha256": "2d18ae3d17920459720235f19abc5ea2995a5dd5b9f0753790bfb9b280271aa9"
+    },
+    "source/analysis/read_inventory_snapshot.py": {
+      "bytes": 6030,
+      "sha256": "aa794ee2970ac85409b29e9fdfc3360bf5637dd9cf0071efb847b74c64dce0ae"
+    },
+    "source/analysis/read_live_equipment.py": {
+      "bytes": 5049,
+      "sha256": "702380af21095a684fc18c2840afd9b93ab77bad05a04b8aca28cba67a2c0674"
+    },
+    "source/analysis/read_replacement_batch_trace.py": {
+      "bytes": 2486,
+      "sha256": "4b36c3fa3227f4fca14f6ebd146096476443bd08c8297583a38cdc277015a977"
+    },
+    "source/analysis/read_replacement_trace.py": {
+      "bytes": 4598,
+      "sha256": "fb337ab7abce0caf4237b88ddff4d00e0b4b460f6121d8f5a89069654d330f94"
+    },
+    "source/analysis/read_uncurse_trace.py": {
+      "bytes": 3640,
+      "sha256": "7c30f7e13f197aaf380d2741898594360147a1ec5fedeb49e74190fb2c341d50"
+    },
+    "source/analysis/recalibrate_runtime.py": {
+      "bytes": 4247,
+      "sha256": "69c376a04bc2a8f2093623f4198b9faeb086c4c783f80310bfe9ae6853f3aa3d"
+    },
+    "source/analysis/reconstruct_cursed_item.cjs": {
+      "bytes": 8606,
+      "sha256": "541c15161584523a9ff6a3c7cf313d8f06380bef206b4dfcfd180236dc10b603"
+    },
+    "source/analysis/reconstruct_owned_augment.cjs": {
+      "bytes": 4939,
+      "sha256": "636a55410830e252a1d2921fedcd436a2e1e939155410471f1c1daa709547a10"
+    },
+    "source/analysis/reconstruct_owned_item.cjs": {
+      "bytes": 6880,
+      "sha256": "507ae8af4354516f8d3c6778e334ad6b5e34b4889c15d1be4353909198846dc1"
+    },
+    "source/analysis/reconstruct_upgraded_item.cjs": {
+      "bytes": 5604,
+      "sha256": "ba2829668bf363d9782dc733e0b1e27790866a14c1ec5100869e41547c188981"
+    },
+    "source/analysis/tool_paths.py": {
+      "bytes": 249,
+      "sha256": "078fa6ba47c13e31b02e1d85d71c593cb63ef4c6527de3adb66e551a082eaba8"
+    },
+    "source/Launch.cmd": {
+      "bytes": 47,
+      "sha256": "66bf3eb1d1e2d8ce8fb7be493fcbaba64b019d45e4e79263767d8b8195e66293"
+    },
+    "source/LaunchGroundLoot.cmd": {
+      "bytes": 55,
+      "sha256": "f924f78bc476f96a4f13f84ff83c01b89880fa8da8a99420ba8544f5737d84d8"
+    },
+    "source/local_mod/application_settings.json": {
+      "bytes": 41,
+      "sha256": "2a6417a690e46d553a626411c04920083af9a4bc9ff8ff35de3071c4b6e5108b"
+    },
+    "source/local_mod/application_settings_panel.py": {
+      "bytes": 6378,
+      "sha256": "f8b06cb37eadde3b398da111bd454735643885e896453fd219245379bee9638c"
+    },
+    "source/local_mod/assets/app_icon.ico": {
+      "bytes": 206874,
+      "sha256": "1a9c56a3bd9182bf7adf029846a109991f6a38ee61e89274d4e5336215c5f02f"
+    },
+    "source/local_mod/assets/app_icon.png": {
+      "bytes": 301753,
+      "sha256": "8e30d14b6ab37705c34f4aca55491a066e98588427b34fa3c77bb6e79850ffed"
+    },
+    "source/local_mod/branding.py": {
+      "bytes": 3186,
+      "sha256": "ccc8ad7444a8687d8067f36e6e1fcfbc36f819fcc040d1194a8f9434f2f2ac94"
+    },
+    "source/local_mod/browser_preferences.py": {
+      "bytes": 1850,
+      "sha256": "c67e99f598e5ee5a9aa56a50897e519d5bf57562ae324d31770c37a898dbabcd"
+    },
+    "source/local_mod/build_local_mod.py": {
+      "bytes": 11581,
+      "sha256": "0e193b541c185b9c4337140ae0002a3b68ab9bb27cf78f223e42fc82395e80ce"
+    },
+    "source/local_mod/build_primal_drop_trial.py": {
+      "bytes": 3464,
+      "sha256": "a0ed8764ec3faa8d9accc4b169ab9a6658f21ae43b51b6231e03c4eb8e0a051f"
+    },
+    "source/local_mod/build_replacement_copy_trial.py": {
+      "bytes": 7151,
+      "sha256": "40ed60073b14c8e8c2e1d09e84b1012c63f3359bebfa58ab966078b3e417c41a"
+    },
+    "source/local_mod/character_overview_model.py": {
+      "bytes": 5469,
+      "sha256": "9ceab8561339276d30c4046afcbc3c8962733ecd2ef073747b2aad231adcdf50"
+    },
+    "source/local_mod/character_overview_panel.py": {
+      "bytes": 12572,
+      "sha256": "1c517617dac269371c1d0cba6e5a0eec0936ebae116693fd0639dd8b42fbef9c"
+    },
+    "source/local_mod/compile_primal_drop_trial.cjs": {
+      "bytes": 3003,
+      "sha256": "9a28ca7236a77c630c1d3fc4eaeddb32f59d6bd6c3ec798b78c84256c45584d1"
+    },
+    "source/local_mod/compile_replacement_batch.cjs": {
+      "bytes": 2078,
+      "sha256": "f4de833953ed590d3db3b695d2ff168a09a42ecf4cff69c0d96428a01ccc2e0e"
+    },
+    "source/local_mod/compile_replacement_copy.cjs": {
+      "bytes": 5970,
+      "sha256": "3299a359216a398e5199221fb0657218e51b151c80bc4725faeaabab44d0868c"
+    },
+    "source/local_mod/compile_uncurse_trial.cjs": {
+      "bytes": 5794,
+      "sha256": "6802d6aa7026d443459b72f5c2fd1609aa9d7e42bad8315b00e2d73cd7d6f921"
+    },
+    "source/local_mod/disable_local_mod.py": {
+      "bytes": 1217,
+      "sha256": "6e6e6241439456a4c71e82cb51c030a7a0ed69410b054dd62539f07cf4f66c0a"
+    },
+    "source/local_mod/editor_model.py": {
+      "bytes": 16976,
+      "sha256": "3717c9826b4711c76aa49fa91827a2d5260b26527ba1fda433ef8cf72267b062"
+    },
+    "source/local_mod/equipment_editor.py": {
+      "bytes": 33092,
+      "sha256": "8380b61aafa7575622f1e5dabe152b57440ebd717d4b931a240aafe7c8d0fbb8"
+    },
+    "source/local_mod/equipment_names.py": {
+      "bytes": 1394,
+      "sha256": "72400a5f46e626cb96a10cae645fa9c1994a630396926abd3d066fecf41eaaae"
+    },
+    "source/local_mod/ground_drop_cli.cjs": {
+      "bytes": 7062,
+      "sha256": "f0df9d717f393e76f27e513dbf4cf0d6abee1a235f8cc64c7afdfcf9ee579fb4"
+    },
+    "source/local_mod/ground_drop_editor.py": {
+      "bytes": 31397,
+      "sha256": "8ba5b3dc776a21af40eea68e4f0f22358cbea1ff064f66af6fc62e6daffef49c"
+    },
+    "source/local_mod/ground_drop_filters.py": {
+      "bytes": 2429,
+      "sha256": "2b71f43e7c236d04071fd6c7d93f69bc32318f5019cd874903650ee154f5640e"
+    },
+    "source/local_mod/ground_drop_service.py": {
+      "bytes": 9614,
+      "sha256": "9b67be1f3894f4a8a3eedc22342307bc922a6524e9e7684090f4de2863948e72"
+    },
+    "source/local_mod/inventory_browser.py": {
+      "bytes": 14251,
+      "sha256": "b3d18638d986daf53343c7600501f8d7c933f763c075a3ac6d18f8f9b34dbb58"
+    },
+    "source/local_mod/inventory_readout_runtime.js": {
+      "bytes": 7798,
+      "sha256": "989f35a6af9aaa41e8e33207f5c825d693b53e07c9c78ba45cbc9108abb5be50"
+    },
+    "source/local_mod/inventory_snapshot.py": {
+      "bytes": 18538,
+      "sha256": "4f561713c21370cfbdda7431fac17868390f989535deface7e40761fcee58125"
+    },
+    "source/local_mod/item_labels.json": {
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "source/local_mod/known_good_release.json": {
+      "bytes": 262,
+      "sha256": "fb8419a7d21d977fad3982a2782e778b011177713a43a2ba82aff1023c05375d"
+    },
+    "source/local_mod/Launch.cmd": {
+      "bytes": 267,
+      "sha256": "2dc888c164ee2ad1aff0cc8cb023150b9849b1be6ec92e25adfadc268c213662"
+    },
+    "source/local_mod/launch_portable.ps1": {
+      "bytes": 1975,
+      "sha256": "20612564ab25b9e7da19550b41410245e316ffdd664f22787a46ece0b6893c44"
+    },
+    "source/local_mod/LaunchNewDrops.cmd": {
+      "bytes": 279,
+      "sha256": "32cca70a2c7b1f404da40fb4d67541d083b015c48be90c9622317eaa605b71c9"
+    },
+    "source/local_mod/localization.py": {
+      "bytes": 29702,
+      "sha256": "b674cc22b7b46ca038b79a0d4f7309426c25267e2a0e819fc11ac52824c1980a"
+    },
+    "source/local_mod/localized_widgets.py": {
+      "bytes": 9085,
+      "sha256": "635f3636240ec3330963db6777a87540f8eba7deeb9ee8c3a6f0a8fcc32d9c5c"
+    },
+    "source/local_mod/override_runtime.js": {
+      "bytes": 19401,
+      "sha256": "9e68ae7e394c4d4b824b641e99bdf862b6a71961214e43bdb9476a178c011f99"
+    },
+    "source/local_mod/overrides.json": {
+      "bytes": 196,
+      "sha256": "67dbb974da502c611cc3da0fc469eea967d9c94b0ead47705a5d960011c24839"
+    },
+    "source/local_mod/owned_augment_model.py": {
+      "bytes": 1465,
+      "sha256": "37d6afb5aff2eb6eae448c4f27cb6afcc44f65738aa18fed3595e5ad1a4bc19a"
+    },
+    "source/local_mod/prepare_resources.py": {
+      "bytes": 3372,
+      "sha256": "2647c14ace825f9df715fa5f907924d1e9bda9f745e29dcbbb7101dd13992e6f"
+    },
+    "source/local_mod/prepare_shortcut.ps1": {
+      "bytes": 608,
+      "sha256": "7ec4f02d263b8338f1cb1db26af47f2f63d7918e067b66925bccdd41255e911a"
+    },
+    "source/local_mod/primal_drop_build.py": {
+      "bytes": 1464,
+      "sha256": "9ca42e537609ba7c31b4ca8db0729d738e8a1f3f855ac4c87b72eaa3fc8c32f3"
+    },
+    "source/local_mod/primal_drop_panel.py": {
+      "bytes": 4742,
+      "sha256": "88bb8c856ab0e3e894275db7f8bb710281377e098a9da6f8453dbd3fdfd5f06e"
+    },
+    "source/local_mod/primal_drop_runtime.js": {
+      "bytes": 4161,
+      "sha256": "2d60d3362d69d3598042751d858755e6c9809522dad0daebecd047c9012cec93"
+    },
+    "source/local_mod/primal_drop_settings.py": {
+      "bytes": 1640,
+      "sha256": "04a193462b1e635b47b3d2c530fb982b63aa8d091b513cb9ca077ab47adcc9d2"
+    },
+    "source/local_mod/primal_drop_trial_service.py": {
+      "bytes": 7213,
+      "sha256": "4b3c1fb4ba2fad8c7845ce48c03f1b52a639dca8703d7ac85ff303c9ba15675f"
+    },
+    "source/local_mod/random_primary_catalogue.py": {
+      "bytes": 5016,
+      "sha256": "87b658d5a8d623c962e4ff4ed9138d9b8af7434c7d3e9e158b1880275e3c44b2"
+    },
+    "source/local_mod/reader_setup.py": {
+      "bytes": 3446,
+      "sha256": "269a11a9412daf237105b39a2cd508d49970ee814ef141f9596a7d3a473cefb0"
+    },
+    "source/local_mod/replacement_batch_details.py": {
+      "bytes": 4431,
+      "sha256": "1413cd80ebf8143b5e6ec16ec0621a963e26b6a65e32c9c1891522825a22a7c0"
+    },
+    "source/local_mod/replacement_batch_panel.py": {
+      "bytes": 20582,
+      "sha256": "b4a937db5350c8bd76039e82c3e0c3a20b04b05f4eb0e442ab596a1ee24f38fc"
+    },
+    "source/local_mod/replacement_batch_runtime.js": {
+      "bytes": 1796,
+      "sha256": "b2a79775968385471eb9be06b50c890ef57ff9cbda8bea77a90748e6f88e0796"
+    },
+    "source/local_mod/replacement_batch_service.py": {
+      "bytes": 13968,
+      "sha256": "e3eeddbf2ab2473a6b9e82a7ed2534001874db1c7ce2cc6eac47da3b063a4b29"
+    },
+    "source/local_mod/replacement_copy_runtime.js": {
+      "bytes": 7796,
+      "sha256": "5204f185fab39f3faca3949c22ca5b8e40854fde70171afda4d895df219d73c9"
+    },
+    "source/local_mod/replacement_editor_cli.cjs": {
+      "bytes": 4181,
+      "sha256": "4251263b871ade5bd7e30b36ea5be1542325fe63c066abf300fa2018a717ae47"
+    },
+    "source/local_mod/replacement_multi_panel.py": {
+      "bytes": 13523,
+      "sha256": "8a4d80573cfd6bbfd4f406b554e49bdbaa4eb00aa020529603c7f89bb7d7adef"
+    },
+    "source/local_mod/replacement_panel.py": {
+      "bytes": 11264,
+      "sha256": "3acacd421d61b1356205390cf07e014fbf166141992a85ffd9a47a01ce726e0f"
+    },
+    "source/local_mod/replacement_service.py": {
+      "bytes": 13160,
+      "sha256": "fddd86a54d605a388bda276e829dde4e4e1034490e806af232cd7696a7b012d3"
+    },
+    "source/local_mod/reset_service.py": {
+      "bytes": 9689,
+      "sha256": "bdcab26e0d9fb9dc8afdfad89301b6576ba5440028e53aeb4390a8b807959a83"
+    },
+    "source/local_mod/runtime_paths.py": {
+      "bytes": 3182,
+      "sha256": "29e8454704c4a7dd680adde7ca355a3ee925895b6653395e22e4ffe398d60620"
+    },
+    "source/local_mod/settings_backups.py": {
+      "bytes": 8219,
+      "sha256": "493dbd87727a642afd26f9d892b42c1ef20c79e3a0afa4830bc3e8458937e8a7"
+    },
+    "source/local_mod/settings_panel.py": {
+      "bytes": 689,
+      "sha256": "57f176667077d639f5fde7d6550a2c6eecbc24241b2f6a9b55a2e0d5039cad47"
+    },
+    "source/local_mod/settings_service.py": {
+      "bytes": 12115,
+      "sha256": "cda75cbbe2f070a790ee09b9c8105143db12218efb9647a2e38e4ba600eec2ef"
+    },
+    "source/local_mod/startup.py": {
+      "bytes": 5079,
+      "sha256": "7ae05940001ca53cc934dffd7810808cad78a9aac5fa041faf3d52a91a16ae03"
+    },
+    "source/local_mod/trait_labels.json": {
+      "bytes": 699,
+      "sha256": "ed869d04f50503f79bc297211c6faa3e3d69e93e69ab367587aece22ad76072f"
+    },
+    "source/local_mod/trait_type_cli.cjs": {
+      "bytes": 10288,
+      "sha256": "1f01beb1a792ec7e0c4e17a1b2781195460b9bf7b5a327422b7167f824fd3e89"
+    },
+    "source/local_mod/trait_type_panel.py": {
+      "bytes": 17681,
+      "sha256": "53500d95c54480aeea401e7a197e806866ce93cc874601c3ec9e1fa1d3563791"
+    },
+    "source/local_mod/trait_types.py": {
+      "bytes": 7801,
+      "sha256": "294c1ebe74e7f7657a34a971c7e5f382d62df3bbc32ce9df9e7f7ab8ac943d56"
+    },
+    "source/local_mod/ui_english.json": {
+      "bytes": 26414,
+      "sha256": "bdb8da48fbe76b4a7b1266fce2a59691d03c95d3405262bff05e90f9f67b86cb"
+    },
+    "source/local_mod/ui_theme.py": {
+      "bytes": 5056,
+      "sha256": "284bdddd5989e9729b956407d9a7a652dcb735457b121386a9295c3c0205c955"
+    },
+    "source/local_mod/uncurse_panel.py": {
+      "bytes": 5047,
+      "sha256": "408ac8469c339b8c6e0735bf7177a63349f3cfd6ac2b346b7b956b4e2bbadf4a"
+    },
+    "source/local_mod/uncurse_runtime.js": {
+      "bytes": 9521,
+      "sha256": "86dbe6515b68f87997f7d72836dafd95b798786b63d4b91e36429688bbeac0dc"
+    },
+    "source/local_mod/uncurse_service.py": {
+      "bytes": 10999,
+      "sha256": "0ab6bdc72e9bc06b0472286f908ca8155337f12e1ce022df1bfcff974825925c"
+    },
+    "source/README-English.txt": {
+      "bytes": 7470,
+      "sha256": "126fb40e75f3fcdb8b103bc1fee6bd5950fcb367ecd8687debce35dc71ef1bfb"
+    },
+    "source/RELEASE-NOTICE-English.txt": {
+      "bytes": 5279,
+      "sha256": "3f67f5613a81d6e520dc376bf8ae2e3fc543766b71b2121ccda6dd7830d1d180"
+    },
+    "source/THIRD-PARTY-NOTICES.txt": {
+      "bytes": 1020,
+      "sha256": "e464f5fbe29e47f3d907c1bd4aa0fa53b44f03f4b8beee54f8885764402bf980"
+    },
+    "source/VALIDATION-STATUS.txt": {
+      "bytes": 1563,
+      "sha256": "f015fc6421e3cdaa21f33183de525d189904a55a3470961202279e2499107079"
+    },
+    "source/使用说明-中文.txt": {
+      "bytes": 6461,
+      "sha256": "2bf575c3ed464819c07e36bd84809d23a166048d47c067698eb5b5003e7f4156"
+    },
+    "source/发布声明-中文.txt": {
+      "bytes": 4744,
+      "sha256": "64a51b4836de099c9a09272eaab02dbdcc9ada36b0f1fa14f4baec26ff8d4701"
+    },
+    "source/开始使用-START-HERE.txt": {
+      "bytes": 2452,
+      "sha256": "7f3253c7590da60d7b437754b0f1d86388b6bbf3462ba9d9947bf8cdcaa4ca9a"
+    },
+    "source/运行与补丁组件清单.txt": {
+      "bytes": 2663,
+      "sha256": "c2623d7bf1b51cc011548c1ba427f4b50ea4b6e29fa61ff246cb04eccedb5e2c"
+    },
+    "source/随机主词条装备清单.txt": {
+      "bytes": 1807,
+      "sha256": "0b9257a3f25c52299d900ca4c34a1fc632985349d29ca44017767f924f65393f"
+    },
+    "verify_review.py": {
+      "bytes": 1502,
+      "sha256": "23d7031f34774c59520fc61643e94ad7fd0b63bb900403daebbddb4faa1e822b"
+    }
+  },
+  "purpose": "review_material_integrity_only"
+}

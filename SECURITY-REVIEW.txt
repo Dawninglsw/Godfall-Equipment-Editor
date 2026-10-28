@@ -1,0 +1,70 @@
+APPLICATION BEHAVIOR AND REVIEW POINTERS
+
+The application is interpreted Python/Tk and JavaScript/CommonJS. No project-
+authored native EXE, DLL, driver, PyInstaller bundle, or self-extracting installer
+is included. The EXEs/DLLs/PYDs are third-party runtime components.
+
+1. Startup and local processes
+Launch.cmd calls local_mod/Launch.cmd, which starts Windows PowerShell with
+-NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass for the supplied launcher.
+launch_portable.ps1 starts bundled pythonw.exe with local_mod/startup.py as a
+visible GUI. The policy flag applies to that invocation; it does not configure
+machine-wide execution policy. Branding uses prepare_shortcut.ps1 and WScript
+COM to create a .lnk in the TOOL folder, not an autorun/Startup registration.
+Local Node.js and Python child processes calculate candidates and build patches.
+Subprocess hiding is used for helpers; failures are written to local logs.
+Review: local_mod/Launch*.cmd, launch_portable.ps1, prepare_shortcut.ps1,
+branding.py, runtime_paths.py, settings_service.py.
+
+2. Original resources and game-folder writes
+First-run preparation validates the game executable hash, reads the user's local
+original PAK and extracts selected UI/tables into analysis/extracted in the tool.
+Original game resources are not redistributed in the clean package. Steam
+installation discovery reads registry paths and libraryfolders.vdf.
+The editor builds an additional PAK containing a patched copy of the local UI
+JavaScript. The managed destination is:
+<Godfall>/Aperion/Content/Paks/pakchunk99-GodfallEquipment_P.pak
+Installation/removal is requested by the user, checks game exit/ownership, and
+backs up managed changes. The original game executable and original PAKs are
+not overwritten by these operations. Runtime UI code executes IN the game when
+the game loads this additional PAK and can change item creation, curse state,
+traits and scoped reward behavior according to the installed plan.
+Review: prepare_resources.py, analysis/inspect_resources.py, build_local_mod.py,
+settings_backups.py, reset_service.py, *_runtime.js and compile_*.cjs.
+
+3. Process-memory access - intentionally disclosed
+Process enumeration and OpenProcess/ReadProcessMemory locate the Godfall process,
+read inventory/UI snapshots and relevant equipment state. The optional ground-
+loot editing route also calls WriteProcessMemory after validation and an explicit
+apply action, to change existing item JSON string buffers/lengths and at most an
+existing quality scalar. It is NOT accurate to describe this whole tool as
+read-only. This route does not use remote-thread creation, executable injection
+or game allocator calls. PAK JavaScript modification is a separate mechanism.
+Review: analysis/inspect_ue_runtime.py, recalibrate_runtime.py,
+read_inventory_snapshot.py, read_live_equipment.py, read_ground_loot.py,
+ground_trait_trial.py and local_mod/ground_drop_service.py.
+
+4. Data storage and persistence
+Snapshots, user-selected paths, plans, receipts, backups and logs are stored in
+the tool folder. No author's personal state is present in the reviewed release.
+There is no direct save-file editor in the reviewed application; the game saves
+normally acquired generated items and completed curse objectives itself.
+Disabling the PAK does not undo already-saved item acquisition or curse changes.
+No Windows service, scheduled task, driver or automatic startup entry is installed
+by the reviewed project code. The added game PAK persists until disabled/removed.
+
+5. Networking and privileges
+The reviewed project scripts contain no updater, uploader, account-login client,
+telemetry client or newly added direct HTTP/socket client. General-purpose Python
+and Node runtimes include their normal networking capabilities; their presence
+does not mean every possible network operation is disabled. The original game
+may use its own online services; unchanged game request code is not included in
+this source archive. No administrator elevation is requested by the launcher;
+the selected folders must be writable by the user.
+
+6. Verification limits
+This is a source/capability inventory, not a malware-analysis verdict. Archive CRC,
+SHA-256 and local Authenticode results do not prove the absence of malicious code.
+No fresh Defender/VirusTotal scan was submitted, no detection count is claimed,
+and the exact Nexus trigger is unknown. Moderators should independently scan
+the uploaded file and confirm its SHA-256 against the review manifest.

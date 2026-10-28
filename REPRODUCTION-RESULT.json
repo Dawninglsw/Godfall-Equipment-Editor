@@ -1,0 +1,17 @@
+{
+  "source_verification": {
+    "status": "verified",
+    "source_files": 105,
+    "distribution_sha256": "fb57cdb95bc28309a7e8f09d9c096c147681c2cbcf0cb61c91ae3ea51c1fb8bd",
+    "game_access": false
+  },
+  "repack_verification": {
+    "status": "all_payloads_match_reviewed_release",
+    "files": 2051,
+    "sha256": "fb57cdb95bc28309a7e8f09d9c096c147681c2cbcf0cb61c91ae3ea51c1fb8bd",
+    "byte_identical_zip": true,
+    "game_access": false
+  },
+  "virus_scan_performed": false,
+  "nexus_upload_or_approval_confirmed": false
+}

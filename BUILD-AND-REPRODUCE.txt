@@ -1,0 +1,53 @@
+RUNNING, BUILDING AND REPRODUCING THE REVIEWED RELEASE
+
+The application has no project-authored native compiler or executable packaging
+stage. Its Python/JavaScript/CMD/PowerShell files run as disclosed in source/.
+No pip/npm dependencies, dependency downloads or obfuscated native application
+binary are needed. Third-party runtime binaries are prebuilt dependencies.
+
+A. Verify the disclosed source (no game access)
+Use Python 3.12, or the reviewed release's bundled runtime:
+  python verify_review.py
+The script checks every source/resource hash against the distribution manifest.
+It does not launch the GUI, extract game resources, or install/modify a game PAK.
+
+B. Run the interpreted source with independent runtimes
+1. Obtain a compatible Windows x64 Python 3.12 with tkinter/Tcl/Tk and Node 24.
+   Their native build instructions belong to their upstream projects, not this mod.
+2. Verify source first. For normal GUI testing, use a separate copy of source/.
+3. From that source/ directory, run:
+     python local_mod/startup.py
+4. Select a legitimate compatible Godfall installation and the independently
+   obtained node.exe in First Run. Verify & Prepare checks executable/UI/table
+   hashes before preparing resources. It does not install a game patch.
+5. The launcher may create a local .lnk and tool-owned settings/logs. Direct Python
+   invocation is useful for review; Launch.cmd itself expects bundled runtime files.
+6. For authorized gameplay testing, close the game, use Settings > Install Base
+   Reader, then start the game/open armory and Refresh Loadouts. Use the GUI for
+   item plans. Do not install on another user's system or test save without consent.
+
+C. Repack exact project source with original runtime payloads (no game access)
+Keep the reviewed original English ZIP outside this review folder. Run:
+  python repack_reviewed_release.py --runtime-from-zip "Godfall-Equipment-Editor-v0.1.0.zip" --output "review-rebuilt.zip"
+The input must have the SHA-256 recorded in REVIEW-MANIFEST.json. Every project
+file is taken from source/, every runtime file from the input ZIP, and the original
+manifest from REFERENCE-DISTRIBUTION-MANIFEST.json. All file hashes and final
+payloads are verified. Recompression may change archive metadata/hash; byte-for-
+byte payload equivalence is required. This does not rebuild or certify third-party
+native dependencies. The script never reads/writes a game directory.
+
+D. Build the local game patch, only when gameplay review is intended
+This step requires the user's original compatible game resources; they cannot be
+included in the source disclosure. First Run prepares them locally, then the GUI
+builds an additional PAK from build_local_mod.py or item/curse/batch compiler modules.
+The build code syntax-checks JavaScript and independently extracts the resulting
+PAK to verify its payload. The GUI's install action is separate and requires game
+exit. Do not run installer actions as part of a source-only security review.
+
+Corresponding key source:
+- GUI/first run: source/local_mod/startup.py, settings_panel.py
+- Base PAK writer/installer: source/local_mod/build_local_mod.py
+- Batch plan build: source/local_mod/replacement_batch_service.py,
+  build_replacement_copy_trial.py, compile_replacement_batch.cjs
+- Ground editing: source/analysis/ground_trait_trial.py
+- Resource reader: source/analysis/inspect_resources.py
