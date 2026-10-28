@@ -1,6 +1,6 @@
 GODFALL EQUIPMENT EDITOR 0.1.0 - MANUAL REVIEW MATERIALS
 Author: Gauss Theorem / 高斯定理
-Mod page: https://www.nexusmods.com/godfall/mods/8
+Mod page: https://www.nexusmods.com/godfall/mods/9
 
 These materials disclose the interpreted source and default resources for the
 English-named clean distribution identified below.
